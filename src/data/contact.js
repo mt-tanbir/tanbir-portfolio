@@ -1,30 +1,26 @@
-import { FaDiscord, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp, FaInbox } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const ContactData = {
-  phone: "+91 9515643851",
-  email: "talakolavijaykumar@gmail.com",
-  address: "Guntur , Andhra Pradesh , India",
+  phone: "+880 1756-723072",
+  email: "mtanbir.dev.com",
+  address: "Cumilla, Bangladesh",
   links: [
     {
-      url: "https://github.com/VijayKumarReddyTalakola",
+      url: "https://github.com/mt-tanbir",
       icon: FaGithub,
     },
     {
-      url: "https://www.linkedin.com/in/vijay-talakola",
+      url: "https://www.linkedin.com/in/mahmud-tanbir/",
       icon: FaLinkedin,
     },
     {
-      url: "https://discordapp.com/users/talakolavijay",
-      icon: FaDiscord,
+      url: "https://wa.me/1756723072",
+      icon: FaWhatsapp,
     },
     {
-      url: "https://www.instagram.com/vijay_talakola",
-      icon: FaInstagram,
-    },
-    {
-      url: "https://twitter.com/talakolavijay",
-      icon: FaXTwitter,
+      url: "mailto:mtanbir.dev@gmail.com",
+      icon: FaInbox,
     },
   ],
 };

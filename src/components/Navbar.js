@@ -27,7 +27,7 @@ const Navbar = () => {
           className="flex justify-center items-center w-fit"
         >
           <img
-            className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150"
+            className="w-24 ml-5 cursor-pointer scale-125 lg:scale-150"
             src={ProfileData.logo}
             alt={ProfileData.name}
           />
