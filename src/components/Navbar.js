@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white body-font fixed inset-x-0 z-50 bg-darkblue">
-      <div className="mx-auto py-2 px-5 flex flex-row justify-between lg:justify-around items-center lg:py-3">
+      <div className="mx-auto py-[10px] px-5 flex flex-row justify-between lg:justify-around items-center lg:py-4">
         <Link
           data-aos="fade-right"
           data-aos-duration="1000"

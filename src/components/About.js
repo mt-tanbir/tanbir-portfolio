@@ -6,8 +6,8 @@ import ProfileData from "../data/profile";
 const About = () => {
   return (
     <section className="body-font">
-      <div className="p-5 mt-3 mx-auto md:mt-5 md:mx-10 lg:mx-16">
-        <div id="about" className="flex flex-col text-center w-full mb-3">
+      <div className="p-5 my-3 mx-auto md:my-5 md:mx-10 lg:mx-16">
+        <div id="about" className="flex flex-col text-center w-full mb-12">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             About Me
           </h1>
@@ -28,12 +28,12 @@ const About = () => {
             className="lg:max-w-lg sm:w-2/3 lg:w-1/2 w-full mb-10 md:mb-0"
           >
             <img
-              className="object-cover object-center pointer-events-none rounded backdrop-contrast-200 backdrop-brightness-200"
+              className="object-cover max-h-[440px] rounded-xl object-center pointer-events-none backdrop-contrast-200 backdrop-brightness-200"
               alt="hero"
               src={AboutData.image}
             />
           </div>
-          <div className="lg:w-1/2 justify-center lg:p-5 xl:p-7 md:p-5 flex flex-col items-center text-justify">
+          <div className="lg:w-1/2 justify-center flex flex-col items-center text-justify">
             {AboutData.description?.map((item, index) => (
               <p
                 key={index}

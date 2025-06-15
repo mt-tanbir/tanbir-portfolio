@@ -12,52 +12,24 @@ const SkillsData = [
     image: require("../assets/Images/javascript.png"),
   },
   {
-    name: "TypeScript",
-    image: require("../assets/Images/typescript.png"),
+    name: "JQuery",
+    image: require("../assets/Images/jquery.png"),
   },
   {
-    name: "MongoDB",
-    image: require("../assets/Images/mongodb.png"),
-  },
-  {
-    name: "Express",
-    image: require("../assets/Images/express.png"),
-  },
-  {
-    name: "React",
-    image: require("../assets/Images/react.png"),
-  },
-  {
-    name: "Node",
-    image: require("../assets/Images/node.png"),
-  },
-  {
-    name: "Redux",
-    image: require("../assets/Images/redux.png"),
-  },
-  {
-    name: "Next",
-    image: require("../assets/Images/next.png"),
+    name: "Bootstrap",
+    image: require("../assets/Images/bootstrap.png"),
   },
   {
     name: "Tailwind",
     image: require("../assets/Images/tailwind.png"),
   },
   {
-    name: "Firebase",
-    image: require("../assets/Images/firebase.png"),
+    name: "SCSS",
+    image: require("../assets/Images/scss.png"),
   },
   {
-    name: "Prisma",
-    image: require("../assets/Images/prisma.png"),
-  },
-  {
-    name: "MySQL",
-    image: require("../assets/Images/mysql.png"),
-  },
-  {
-    name: "Postman",
-    image: require("../assets/Images/postman.png"),
+    name: "React",
+    image: require("../assets/Images/react.png"),
   },
   {
     name: "VS Code",
@@ -70,6 +42,10 @@ const SkillsData = [
   {
     name: "GitHub",
     image: require("../assets/Images/github.png"),
+  },
+  {
+    name: "Figma",
+    image: require("../assets/Images/figma.png"),
   },
 ];
 
