@@ -37,10 +37,10 @@ const Projects = () => {
                 className="h-80 rounded-xl"
               />
               <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-darkblue rounded-xl">
-                <h3 className="text-2xl font-medium text-white my-2">
+                <h3 className="text-xl font-semibold text-white my-2">
                   {project.name}
                 </h3>
-                <p className="px-2 text-lg text-white">{project.description}</p>
+                <p className="px-2 text-base font-medium text-white">{project.description}</p>
                 <div className="flex flex-wrap items-center gap-3 mt-3">
                   {project?.icons?.map((Icon, index) => (
                     <div className="rounded-full p-2" key={index}>
