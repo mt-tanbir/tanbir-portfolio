@@ -3,39 +3,35 @@ import {
   BiLogoCss3,
   BiLogoBootstrap,
   BiLogoJquery,
-  BiLogoFirebase,
-  BiLogoReact,
   BiLogoTailwindCss,
 } from "react-icons/bi";
-import { TbApi, TbDatabase } from "react-icons/tb";
-import { SiThemoviedatabase } from "react-icons/si";
 
 const ProjectsData = [
   {
     id: "1",
-    name: "Movie Website",
-    image: "./IMDB.png",
-    icons: [BiLogoReact, BiLogoCss3, SiThemoviedatabase],
+    name: "Bite & Eat",
+    image: "./bite-and-eat.png",
+    icons: [BiLogoHtml5, BiLogoTailwindCss, BiLogoJquery],
     description:
-      "This website provides information about popular , top-rated and upcoming movies.",
-    github: "https://github.com/VijayKumarReddyTalakola/IMDB",
-    demo: "https://imdb-rho.vercel.app",
+      "Eat & Bite is a comprehensive platform for food ordering and restaurant reservations, designed specifically for restaurant owners.",
+    github: "https://github.com/mt-tanbir",
+    demo: "https://asset.uibucket.net/html/eventry/src/index.html",
   },
   {
     id: "2",
-    name: "Ecommerce Website",
-    image: "./ecom.png",
-    icons: [BiLogoReact, BiLogoTailwindCss, TbApi, TbDatabase],
+    name: "Eventdia",
+    image: "./eventdia.png",
+    icons: [BiLogoHtml5, BiLogoTailwindCss, BiLogoJquery],
     description:
-      "This website provides users with all the basic kinds of shopping items.",
-    github: "https://github.com/VijayKumarReddyTalakola/Ecommerce-Demo",
-    demo: "https://vijay-ecommerce.vercel.app",
+      "A platform for creating, managing, and registering for events. Enables seamless inter-action between organizers and attendees.",
+    github: "https://github.com/mt-tanbir",
+    demo: "https://asset.uibucket.net/html/eventry/src/index.html",
   },
   {
     id: "3",
     name: "Travel Hive",
     image: "./travelhive.png",
-    icons: [BiLogoReact, BiLogoTailwindCss, BiLogoFirebase],
+    icons: [BiLogoHtml5, BiLogoCss3, BiLogoBootstrap, BiLogoJquery],
     description:
       "A travel planning platform for searching destinations, booking accommodations, and creating itineraries. Focused on user-friendly navigation.",
     github: "https://github.com/mt-tanbir",
@@ -55,7 +51,7 @@ const ProjectsData = [
     id: "5",
     name: "EventDia Dashboard",
     image: "./eventdia-dashboard.png",
-    icons: [BiLogoHtml5, BiLogoTailwindCss, , BiLogoJquery],
+    icons: [BiLogoHtml5, BiLogoTailwindCss, BiLogoJquery],
     description:
       "A web-based dashboard for managing events, tracking attendees, and generating re-ports.",
     github: "https://github.com/mt-tanbir",
