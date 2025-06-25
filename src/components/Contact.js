@@ -45,7 +45,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
-          <div className="p-2 w-full text-center lg:p-5 xl:p-7 md:w-1/2 lg:w-4/6">
+          <div className="flex flex-col justify-center p-2 w-full text-center lg:p-5 xl:p-7 md:w-1/2 lg:w-4/6">
             <h1
               data-aos="zoom-in-down"
               data-aos-duration="1000"
@@ -66,7 +66,7 @@ const Contact = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-once="false"
-              className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5"
+              className="flex gap-2 justify-center items-center mb-4"
             >
               <FaPhoneAlt className="text-white" />
               <p className="text-white md:text-lg ">{ContactData.phone}</p>
@@ -75,7 +75,7 @@ const Contact = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-once="false"
-              className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5"
+              className="flex gap-2 justify-center items-center mb-4"
             >
               <FaEnvelope className="text-white" />
               <a
@@ -89,7 +89,7 @@ const Contact = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
               data-aos-once="false"
-              className="flex gap-3 items-center md:gap-2 lg:gap-5"
+              className="flex gap-2 justify-center items-center"
             >
               <FaMapMarkerAlt className="text-white" />
               <p className="leading-normal text-start text-white md:text-lg">

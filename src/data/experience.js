@@ -1,24 +1,54 @@
 const ExperienceData = [
   {
-    title: "Full Stack Developer Intern",
-    company: "Atoms Digital Solutions",
-    duration: "March 2023 - Feb 2024",
+    title: "Web Development Intern",
+    company: "UI Barn",
+    duration: "January 2024 - April 2024",
     description: [
-      "Engineered Vaaradhi Portal, a management website for underprivileged students and orphans with educational facilities.",
-      "Collaborated with a team of 4 developers to ensure seamless integration of the application.",
-      "Implemented the MERN stack (MongoDB, Express.js, React.js, Node.js) with Google Cloud resulting in a 30% reduction in image loading.",
-      "Streamlined data entry and paperwork processes with the website, saving approximately 20 hours per week.",
+      "Learned and applied core front-end principles in a production work environment.",
+      "Assisted in developing interactive features using jQuery and Bootstrap components.",
+      "Contributed to Cargopoint template, successfully approved and listed on ThemeForest.",
+      <>
+        Gained hands-on experience by contributing to real-world client projects
+        like{" "}
+        <a
+          href="https://living-keylodge.fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-dark-orange underline"
+        >
+          Keylodge Living
+        </a>
+        ,{" "}
+        <a
+          href="https://mobsmile.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-dark-orange underline"
+        >
+          Mobsmile
+        </a>
+        , and{" "}
+        <a
+          href="https://www.frank-endrikat.de/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-dark-orange underline"
+        >
+          FRANKENDRIKAT
+        </a>
+        .
+      </>,
     ],
   },
   {
-    title: "Frontend Developer Intern",
-    company: "BabyCloud",
-    duration: "July 2024 - Present",
+    title: "Jr. Frontend Developer",
+    company: "UI Barn",
+    duration: "May 2024 - Present",
     description: [
-      "Oversees the BabyCloud website, optimizing performance and delivering a seamless user experience.",
-      "Incorporated analytics for user engagement insights and ads to drive website traffic.",
-      "Implemented the Baby Name Generator feature, significantly boosting organic search rankings.",
-      "Integrated Razorpay for secure payments, enabling seamless Child Development Program plan purchases.",
+      "Developed responsive user interfaces using HTML, CSS, Tailwind CSS, and Bootstrap.",
+      "Contributed to 10+ client websites, including Cargopoint and Consumer Legal Group.",
+      "Built an event management platform as a dynamic in-house product.",
+      "Managed and updated product review data to boost engagement and conversions.",
     ],
   },
 ];

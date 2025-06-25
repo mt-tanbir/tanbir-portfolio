@@ -88,9 +88,9 @@ const Experience = () => {
                   </div>
                   <div className="flex w-fit mx-auto">
                     <ul className="pl-3 md:pl-5 list-disc leading-loose max-w-max text-[15px] text-start md:text-base font-medium">
-                      {exp?.description?.map((desc, index) => (
+                      {exp.description.map((desc, index) => (
                         <li key={index} className="mb-1 md:mb-2">
-                          {desc}
+                          {typeof desc === "string" ? desc : <>{desc}</>}
                         </li>
                       ))}
                     </ul>

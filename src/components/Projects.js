@@ -40,7 +40,9 @@ const Projects = () => {
                 <h3 className="text-xl font-semibold text-white my-2">
                   {project.name}
                 </h3>
-                <p className="px-2 text-base font-medium text-white">{project.description}</p>
+                <p className="px-2 text-base font-medium text-white">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap items-center gap-3 mt-3">
                   {project?.icons?.map((Icon, index) => (
                     <div className="rounded-full p-2" key={index}>
@@ -50,7 +52,7 @@ const Projects = () => {
                 </div>
                 <div className="flex gap-7 justify-center items-center my-7 text-2xl">
                   <a
-                    className="text-darkblue text-xl bg-white rounded-full p-2"
+                    className="text-darkblue hover:text-white text-xl bg-white hover:bg-dark-orange rounded-full p-2 duration-200 transition-colors"
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -58,7 +60,7 @@ const Projects = () => {
                     <FaGithub />
                   </a>
                   <a
-                    className="text-darkblue text-xl bg-white rounded-full p-2"
+                    className="text-darkblue hover:text-white text-xl bg-white hover:bg-dark-orange rounded-full p-2 duration-200 transition-colors"
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
