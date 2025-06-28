@@ -1,9 +1,8 @@
 import { FaGithub, FaLinkedin, FaWhatsapp, FaInbox } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 const ContactData = {
-  phone: "+880 1756-723072",
   email: "mtanbir.dev.com",
+  phone: "+880 1756-723072",
   address: "Cumilla, Bangladesh",
   links: [
     {

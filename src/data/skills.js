@@ -27,10 +27,10 @@ const SkillsData = [
     name: "SCSS",
     image: require("../assets/Images/scss.png"),
   },
-  {
-    name: "React",
-    image: require("../assets/Images/react.png"),
-  },
+  // {
+  //   name: "React",
+  //   image: require("../assets/Images/react.png"),
+  // },
   {
     name: "VS Code",
     image: require("../assets/Images/vscode.png"),
@@ -42,6 +42,10 @@ const SkillsData = [
   {
     name: "GitHub",
     image: require("../assets/Images/github.png"),
+  },
+  {
+    name: "Elementor",
+    image: require("../assets/Images/elementor.png"),
   },
   {
     name: "Figma",
