@@ -9,7 +9,7 @@ const ProfileData = {
     "Specialized in front-end development with modern UI frameworks.",
   ],
   resume:
-    "https://drive.google.com/file/d/1KZ74lcdexChQz93qfAhqic6NFIoQW6OY/view?usp=sharing",
+    "https://drive.google.com/file/d/1Wx-p6XCw_UN85EeKk9flvGgXwOfNHkK0/view?usp=drive_link",
 };
 
 export default ProfileData;

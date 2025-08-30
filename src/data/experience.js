@@ -2,7 +2,7 @@ const ExperienceData = [
   {
     title: "Web Development Intern",
     company: "UI Barn",
-    duration: "January 2024 - April 2024",
+    duration: "January 2024 - June 2024",
     description: [
       "Learned and applied core front-end principles in a production work environment.",
       "Assisted in developing interactive features using jQuery and Bootstrap components.",
@@ -43,7 +43,7 @@ const ExperienceData = [
   {
     title: "Jr. Frontend Developer",
     company: "UI Barn",
-    duration: "May 2024 - Present",
+    duration: "July 2024 - July 2025",
     description: [
       "Developed responsive user interfaces using HTML, CSS, Tailwind CSS, and Bootstrap.",
       "Contributed to 10+ client websites, including Cargopoint and Consumer Legal Group.",
