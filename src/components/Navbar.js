@@ -8,17 +8,15 @@ import ProfileData from "../data/profile";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const toggleMenu = () => setIsMenuOpen((open) => !open);
 
   return (
     <header className="text-white body-font fixed inset-x-0 z-50 bg-darkblue">
-      <div className="mx-auto py-[10px] px-5 flex flex-row justify-between lg:justify-around items-center lg:py-4">
+      <div className="mx-auto py-[10px] px-5 flex flex-row justify-between xl:justify-around items-center lg:py-4">
         <Link
           data-aos="fade-right"
           data-aos-duration="1000"
-          data-aos-once="false"
+          data-aos-once="true"
           spy={true}
           smooth={true}
           offset={-100}
@@ -27,7 +25,7 @@ const Navbar = () => {
           className="flex justify-center items-center w-fit"
         >
           <img
-            className="w-24 ml-5 cursor-pointer scale-125 lg:scale-150"
+            className="w-24 ml-5 cursor-pointer scale-125 xl:scale-150"
             src={ProfileData.logo}
             alt={ProfileData.name}
           />
@@ -35,8 +33,9 @@ const Navbar = () => {
         <nav
           data-aos="zoom-in"
           data-aos-duration="1000"
-          data-aos-once="false"
-          className="hidden md:mx-auto lg:flex flex-wrap items-center text-lg justify-center gap-12"
+          data-aos-once="true"
+          aria-label="Main navigation"
+          className="hidden xl:mx-auto xl:flex flex-wrap items-center text-lg justify-center gap-12"
         >
           {Navlinks.map((item) => {
             return (
@@ -57,10 +56,19 @@ const Navbar = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          data-aos-once="false"
-          className="lg:hidden mr-2"
+          data-aos-once="true"
+          className="xl:hidden mr-2"
         >
-          <button onClick={toggleMenu} className="p-2 text-white">
+          <button
+            type="button"
+            onClick={toggleMenu}
+            className="p-2 text-white"
+            aria-label={
+              isMenuOpen ? "Close navigation menu" : "Open navigation menu"
+            }
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-navigation"
+          >
             {isMenuOpen ? (
               <MdClose className="h-6 w-6" />
             ) : (
@@ -68,11 +76,11 @@ const Navbar = () => {
             )}
           </button>
         </div>
-        <button
+        <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          data-aos-once="false"
-          className="hidden lg:flex items-center justify-center w-fit"
+          data-aos-once="true"
+          className="hidden xl:flex items-center justify-center w-fit"
         >
           <a
             href={ProfileData.resume}
@@ -82,16 +90,17 @@ const Navbar = () => {
           >
             Resume
           </a>
-        </button>
+        </div>
         {isMenuOpen && (
-          <div className="min-h-[calc(100vh-4rem)] absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 lg:hidden">
+          <div className="min-h-[calc(100vh-4rem)] absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 xl:hidden">
             <div
               data-aos="zoom-in-down"
               data-aos-duration="500"
               data-aos-once="true"
+              id="mobile-navigation"
               className="rounded-b-lg bg-darkblue shadow-lg px-5 pb-4"
             >
-              <nav className="flex flex-col gap-y-7 text-xl">
+              <nav aria-label="Mobile navigation" className="flex flex-col gap-y-7 text-xl">
                 {Navlinks.map((item) => {
                   return (
                     <Link
@@ -112,7 +121,7 @@ const Navbar = () => {
                   href={ProfileData.resume}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-white bg-dark-orange py-2.5 px-10 rounded-lg font-medium text-lg wfit mx-auto"
+                  className="text-white bg-dark-orange py-2.5 px-10 rounded-lg font-medium text-lg w-fit mx-auto"
                 >
                   Resume
                 </a>

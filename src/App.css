@@ -4,10 +4,6 @@
   margin: 0;
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
-
 .waves > use {
   animation: move-forever 2s -2s linear infinite;
 }

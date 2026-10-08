@@ -3,13 +3,12 @@ const ProfileData = {
   logo: require("../assets/Images/Name.png"),
   lottie: require("../assets/Images/person coding.json"),
   name: "Tanbir Mahmud",
-  professions: ["Web Developer", "Free Lancer", "Front-End Developer"],
+  professions: ["WordPress Developer", "Front-End Developer"],
   info: [
-    "Proficient front-end developer focused on responsive web interfaces.",
-    "Specialized in front-end development with modern UI frameworks.",
+    "WordPress and front-end developer building and maintaining client websites.",
+    "Specialized in Elementor, WooCommerce, LearnDash, JavaScript, and Tailwind CSS.",
   ],
-  resume:
-    "https://drive.google.com/file/d/1Wx-p6XCw_UN85EeKk9flvGgXwOfNHkK0/view?usp=drive_link",
+  resume: "https://mt-tanbir.github.io/resume-of-tanbir/",
 };
 
 export default ProfileData;

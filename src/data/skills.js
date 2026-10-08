@@ -1,55 +1,47 @@
 const SkillsData = [
   {
-    name: "HTML",
-    image: require("../assets/Images/html.png"),
+    category: "WordPress & e-commerce",
+    skills: [
+      "WordPress",
+      "Elementor",
+      "WooCommerce",
+      "LearnDash",
+      "Theme customization",
+    ],
   },
   {
-    name: "CSS",
-    image: require("../assets/Images/css.png"),
+    category: "Front-end",
+    skills: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "Tailwind CSS",
+      "React (familiar)",
+      "PHP (familiar)",
+    ],
   },
   {
-    name: "JavaScript",
-    image: require("../assets/Images/javascript.png"),
+    category: "Web operations & SEO",
+    skills: [
+      "Domain & DNS",
+      "Hosting migration",
+      "SSL",
+      "Backups",
+      "Malware remediation",
+      "On-page SEO",
+      "Metadata & schema",
+      "Sitemaps & redirects",
+    ],
   },
   {
-    name: "JQuery",
-    image: require("../assets/Images/jquery.png"),
+    category: "Tools",
+    skills: ["Git & GitHub", "VS Code", "Figma", "npm", "Chrome DevTools"],
   },
   {
-    name: "Bootstrap",
-    image: require("../assets/Images/bootstrap.png"),
-  },
-  {
-    name: "Tailwind",
-    image: require("../assets/Images/tailwind.png"),
-  },
-  {
-    name: "SCSS",
-    image: require("../assets/Images/scss.png"),
-  },
-  // {
-  //   name: "React",
-  //   image: require("../assets/Images/react.png"),
-  // },
-  {
-    name: "VS Code",
-    image: require("../assets/Images/vscode.png"),
-  },
-  {
-    name: "Git",
-    image: require("../assets/Images/git.png"),
-  },
-  {
-    name: "GitHub",
-    image: require("../assets/Images/github.png"),
-  },
-  {
-    name: "Elementor",
-    image: require("../assets/Images/elementor.png"),
-  },
-  {
-    name: "Figma",
-    image: require("../assets/Images/figma.png"),
+    category: "Languages",
+    skills: ["Bengali (native)", "English (professional working proficiency)"],
   },
 ];
 

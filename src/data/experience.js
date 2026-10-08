@@ -1,54 +1,31 @@
 const ExperienceData = [
   {
     title: "Web Development Intern",
-    company: "UI Barn",
+    company: "Newex Agency",
     duration: "January 2024 - June 2024",
     description: [
-      "Learned and applied core front-end principles in a production work environment.",
-      "Assisted in developing interactive features using jQuery and Bootstrap components.",
-      "Contributed to Cargopoint template, successfully approved and listed on ThemeForest.",
-      <>
-        Gained hands-on experience by contributing to real-world client projects
-        like{" "}
-        <a
-          href="https://living-keylodge.fr/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-dark-orange underline"
-        >
-          Keylodge Living
-        </a>
-        ,{" "}
-        <a
-          href="https://mobsmile.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-dark-orange underline"
-        >
-          Mobsmile
-        </a>
-        , and{" "}
-        <a
-          href="https://www.frank-endrikat.de/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-dark-orange underline"
-        >
-          FRANKENDRIKAT
-        </a>
-        .
-      </>,
+      "Developed the Cargopoint logistics template using HTML, Bootstrap, and jQuery; it passed ThemeForest's coding and UX review.",
+      "Supported Keylodge Living, Mobsmile, and FRANKENDRIKAT with responsive layouts and cross-browser fixes.",
     ],
   },
   {
-    title: "Jr. Frontend Developer",
-    company: "UI Barn",
+    title: "Jr. Front-end Developer (promoted from Web Development Intern)",
+    company: "Newex Agency",
     duration: "July 2024 - July 2025",
     description: [
-      "Developed responsive user interfaces using HTML, CSS, Tailwind CSS, and Bootstrap.",
-      "Contributed to 10+ client websites, including Cargopoint and Consumer Legal Group.",
-      "Built an event management platform as a dynamic in-house product.",
-      "Managed and updated product review data to boost engagement and conversions.",
+      "Developed and maintained 6+ responsive interfaces with HTML, CSS, JavaScript, Tailwind CSS, and Bootstrap, reducing page load time by 10% and improving mobile usability scores.",
+      "Designed and customized WordPress and Elementor sites, including Top Expert Cleaner, cutting build time by 20% with reusable templates.",
+      "Built Eventdia, an internal event management platform, and added filtering and tagging to product review data, increasing user engagement by 15%.",
+    ],
+  },
+  {
+    title: "Executive, WordPress (Web Developer)",
+    company: "Softvence IT Ltd",
+    duration: "September 2025 - Present",
+    description: [
+      "Build and maintain WordPress sites for international clients with Elementor, WooCommerce, and LearnDash, adding custom functionality where page-builder features fall short.",
+      "Manage domain and DNS setup, hosting migrations, SSL, backups, and malware remediation for compromised sites.",
+      "Configure SEO metadata, schema, sitemaps, and redirects to support crawlability and indexing.",
     ],
   },
 ];

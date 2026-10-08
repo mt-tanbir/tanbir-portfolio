@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -15,12 +16,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Profile />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <main>
+        <Profile />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+        <Contact />
+      </main>
       <Footer />
       <ScrollToTopButton />
       <ToastContainer />

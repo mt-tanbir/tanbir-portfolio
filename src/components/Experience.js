@@ -6,13 +6,13 @@ const Experience = () => {
     <section className="py-3 px-3 bg-white mt-4 md:mt-7">
       <div className="mx-auto max-w-6xl">
         <div id="experience" className="flex flex-col text-center mb-4 w-full ">
-          <h1 className="text-3xl sm:text-4xl font-medium title-font mb-2">
+          <h2 className="text-3xl sm:text-4xl font-medium title-font mb-2">
             Experience
-          </h1>
+          </h2>
           <p
             data-aos="zoom-in"
             data-aos-duration="1000"
-            data-aos-once="false"
+            data-aos-once="true"
             className="text-lg mx-auto leading-relaxed font-medium text-dark-orange text-center"
           >
             Professional Experience
@@ -20,7 +20,7 @@ const Experience = () => {
         </div>
 
         <div className="flex flex-col md:grid grid-cols-9 mx-auto text-blue-50">
-          {ExperienceData?.reverse().map((exp, index) => {
+          {[...ExperienceData].reverse().map((exp, index) => {
             const isLeft = index % 2 === 0;
             return isLeft ? (
               <div
@@ -30,7 +30,7 @@ const Experience = () => {
                 <div
                   data-aos="zoom-in-up"
                   data-aos-duration="1500"
-                  data-aos-once="false"
+                  data-aos-once="true"
                   className="bg-slate-100 text-gray-700 col-start-1 col-end-5 p-2.5 md:p-4 rounded-lg my-4 ml-auto shadow-md"
                 >
                   <h3 className="text-lg md:text-xl font-semibold mb-1">
@@ -74,7 +74,7 @@ const Experience = () => {
                 <div
                   data-aos="zoom-in-up"
                   data-aos-duration="1500"
-                  data-aos-once="false"
+                  data-aos-once="true"
                   className="bg-slate-100 text-gray-700 col-start-6 col-end-10 p-2.5 md:p-4 rounded-lg my-4 mr-auto shadow-md"
                 >
                   <h3 className="text-lg md:text-xl font-semibold mb-1">
@@ -90,7 +90,7 @@ const Experience = () => {
                     <ul className="pl-3 md:pl-5 list-disc leading-loose max-w-max text-[15px] text-start md:text-base font-medium">
                       {exp.description.map((desc, index) => (
                         <li key={index} className="mb-1 md:mb-2">
-                          {typeof desc === "string" ? desc : <>{desc}</>}
+                          {desc}
                         </li>
                       ))}
                     </ul>

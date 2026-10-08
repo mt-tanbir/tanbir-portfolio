@@ -13,7 +13,10 @@ const ScrollToTopButton = () => {
   };
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
   };
 
   useEffect(() => {
@@ -25,15 +28,17 @@ const ScrollToTopButton = () => {
 
   return (
     <button
+      type="button"
       onClick={scrollToTop}
+      aria-label="Scroll to top"
       data-aos="zoom-in"
       data-aos-duration="300"
       data-aos-once="true"
-      className={`${
+      className={`z-40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-dark-orange focus-visible:ring-offset-2 ${
         showButton ? "fixed bottom-3 right-4" : "hidden"
       } bg-dark-orange p-1 rounded-full text-white shadow-lg transition duration-900`}
     >
-      <FaCircleArrowUp className="w-6 h-6 lg:w-8 lg:h-8" />
+      <FaCircleArrowUp aria-hidden="true" className="w-6 h-6 lg:w-8 lg:h-8" />
     </button>
   );
 };

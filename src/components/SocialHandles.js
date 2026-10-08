@@ -6,7 +6,7 @@ const SocialHandles = () => {
     <div
       data-aos="zoom-in-up"
       data-aos-duration="1500"
-      data-aos-once="false"
+      data-aos-once="true"
       className="flex gap-5 my-4"
     >
       {ContactData?.links?.map((link, index) => (
@@ -16,6 +16,7 @@ const SocialHandles = () => {
           href={link.url}
           target="_blank"
           rel="noreferrer"
+          aria-label={link.label}
         >
           <link.icon />
         </a>

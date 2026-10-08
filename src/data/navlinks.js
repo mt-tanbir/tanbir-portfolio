@@ -20,6 +20,10 @@ const Navlinks = [
     link: "experience",
   },
   {
+    title: "Education",
+    link: "education",
+  },
+  {
     title: "Contact",
     link: "contact",
   },

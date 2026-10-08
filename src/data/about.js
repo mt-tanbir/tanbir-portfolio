@@ -1,9 +1,8 @@
 const AboutData = {
-  image: require("../assets/Images/about.png"),
+  image: require("../assets/Images/about.webp"),
   description: [
-    "A passionate and dedicated web developer with a strong background in creating visually stunning and highly functional websites with 2 years of experience in the field.",
-    "Throughout my career, I have developed proficiency in various web technologies including HTML5, CSS3, JavaScript. I am well-versed in popular libraries such as React and frameworks like Bootstrap, Tailwind allowing me to build robust and responsive websites. My experience includes successfully delivering 10 client websites and contributing to multiple in-house projects.",
-    "I'm excited to take on new challenges and contribute to innovative projects. Feel free to connect with me through my social media link",
+    "I’m a WordPress and front-end developer with 2.5+ years of experience building Elementor and WooCommerce websites for clients in the UK, EU, and US. I deliver projects end to end, from responsive interfaces and custom functionality to launch and ongoing maintenance.",
+    "My work also includes LearnDash and theme customization, plus the operational tasks behind reliable websites: domain and DNS setup, hosting migrations, SSL, backups, malware remediation, and on-page SEO. Front-end optimization reduced page load time by 10% and improved mobile usability; reusable templates cut build time by 20%. Product-review filtering and tagging increased engagement by 15%.",
   ],
 };
 export default AboutData;
